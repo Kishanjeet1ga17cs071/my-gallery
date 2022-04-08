@@ -23,9 +23,9 @@ const Secret = () => {
       <div className="title">Welcome</div>
       <div className="subtitle">Authentication</div>
       <div className="input-container ic1">
-        <input id="firstname" className="input" type="text"  onChange={(e) => setKey(e.target.value)} />
+        <input id="key" className="input" type="text"  onChange={(e) => setKey(e.target.value)} />
         <div className="cut"></div>
-        <label for="firstname" className="placeholder">Enter the pin</label>
+        <label for="key" className="placeholder">Enter the pin</label>
       </div>
     
      
